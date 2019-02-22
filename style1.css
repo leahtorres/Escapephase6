@@ -1,0 +1,60 @@
+body {
+	background-image: url("moonscape.png");
+	background-size: 100% 100%;
+	display: block;
+	height: 100vh;
+	width: 100vw;
+}
+
+.purple {
+	opacity: 0.10;
+	height: 70%;
+	width: 100%;
+	background-color: #9C5BDF;
+}
+
+.blue {
+	opacity: 0.50;
+	height: 30%;
+	width: 100%;
+	display: flex;
+}
+
+.pink {
+	opacity: 0.90;
+	height: 25%;
+	width: 100%;
+	display: flex;
+	background-color: #ed9ae3;
+}
+
+.orange {
+	opacity: 0.25;
+	width: 50%;
+	height:100%;
+	background-color: #d87f0a;
+}
+
+.brown {
+	opacity: 0.90;
+	height: 100%;
+	width: calc(50%/3);
+	background-color: #513f3f;
+}
+
+.black {
+	width: calc(100%/6);
+	height: 100%;
+	background-color: #4B484F;
+}
+
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.restrict-img-size {
+	max-height: 75%;
+	max-width: 75%;
+}
