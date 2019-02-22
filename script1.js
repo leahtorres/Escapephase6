@@ -136,3 +136,72 @@ function nextImage5(el){
 		//do nothing
 	}
 }
+
+function code1(el){
+	if (el.src.match("seven.jpg")){
+		 el.src = "six.jpg";
+
+	} else if (el.src.match("six.jpg")){
+		 el.src = "five.jpg";
+		
+	} else if (el.src.match("five.jpg")){
+		 el.src = "four.jpg";
+		
+	} else if (el.src.match("four.jpg")){
+		el.src = "three.jpg";
+		// do nothing
+	} else if (el.src.match("three.jpg")){
+		el.src = "two.jpg";
+	} else if (el.src.match("two.jpg")){
+		el.src = "one.jpg";
+	}else if (el.src.match("one.jpg")) {
+		el.src = "seven.jpg";
+		//do nothing
+	}
+}
+
+function code2(el){
+	if (el.src.match("nine.jpg")){
+		 el.src = "zero.jpg";
+
+	} else if (el.src.match("zero.jpg")){
+		 el.src = "seven.jpg";
+		
+	} else if (el.src.match("seven.jpg")){
+		 el.src = "six.jpg";
+		
+	} else if (el.src.match("six.jpg")){
+		el.src = "five.jpg";
+		// do nothing
+	} else if (el.src.match("five.jpg")){
+		el.src = "four.jpg";
+	} else if (el.src.match("four.jpg")){
+		el.src = "three.jpg";
+	}else if (el.src.match("three.jpg")) {
+		el.src = "nine.jpg";
+		//do nothing
+	}
+}
+
+function code3(el){
+	if (el.src.match("one.jpg")){
+		 el.src = "two.jpg";
+
+	} else if (el.src.match("two.jpg")){
+		 el.src = "three.jpg";
+		
+	} else if (el.src.match("three.jpg")){
+		 el.src = "four.jpg";
+		
+	} else if (el.src.match("four.jpg")){
+		el.src = "five.jpg";
+		// do nothing
+	} else if (el.src.match("five.jpg")){
+		el.src = "six.jpg";
+	} else if (el.src.match("six.jpg")){
+		el.src = "seven.jpg";
+	}else if (el.src.match("seven.jpg")) {
+		el.src = "one.jpg";
+		//do nothing
+	}
+}
